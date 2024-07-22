@@ -1,5 +1,4 @@
 import sys
-from pathlib import Path
 import utils
 
 def display_log_counts(log_dict: dict):

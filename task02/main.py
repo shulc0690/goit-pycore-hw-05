@@ -17,14 +17,14 @@ def generator_numbers(input_text: str):
 
 def sum_profit(input_text: str, func):
     """
-    Обчислює суму всіх числа з вхідного тексту.
+    Обчислює суму чисeл з вхідного тексту.
 
     Args:
         text (str): Вхідний текст.
         func (callable): Генератор функція (e.g., generator_numbers).
 
     Returns:
-        float: Сумма чисел з тексту.
+        float: Сума чисел з тексту.
     """
     total_sum = sum(func(input_text))
     return total_sum        
